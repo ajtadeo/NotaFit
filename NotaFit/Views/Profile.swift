@@ -10,8 +10,11 @@ import SwiftUI
 
 struct Profile: View {
     var body: some View {
-        ScrollView {
-            Text("Profile page")
+        ZStack{
+            Color.background.ignoresSafeArea()
+            VStack {
+                Text("Profile page").font(.title)
+            }
         }
     }
 }

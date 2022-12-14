@@ -10,8 +10,11 @@ import SwiftUI
 
 struct Statistics: View {
     var body: some View {
-        ScrollView {
-            Text("Statistics page")
+        ZStack{
+            Color.background.ignoresSafeArea()
+            VStack {
+                Text("Statistics page").font(.title)
+            }
         }
     }
 }

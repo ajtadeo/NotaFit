@@ -14,6 +14,11 @@
 		D668C35F29283676001FC63B /* NotaFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668C35E29283676001FC63B /* NotaFitTests.swift */; };
 		D668C36929283676001FC63B /* NotaFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668C36829283676001FC63B /* NotaFitUITests.swift */; };
 		D668C36B29283676001FC63B /* NotaFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668C36A29283676001FC63B /* NotaFitUITestsLaunchTests.swift */; };
+		D668C37829283C99001FC63B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668C37729283C99001FC63B /* Extensions.swift */; };
+		D668C37B2928448C001FC63B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668C37A2928448C001FC63B /* Home.swift */; };
+		D668C37D29284499001FC63B /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668C37C29284499001FC63B /* Calendar.swift */; };
+		D668C37F292844A2001FC63B /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668C37E292844A2001FC63B /* Statistics.swift */; };
+		D668C381292844AB001FC63B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668C380292844AB001FC63B /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		D668C36429283676001FC63B /* NotaFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotaFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D668C36829283676001FC63B /* NotaFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaFitUITests.swift; sourceTree = "<group>"; };
 		D668C36A29283676001FC63B /* NotaFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D668C37729283C99001FC63B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D668C37A2928448C001FC63B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D668C37C29284499001FC63B /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		D668C37E292844A2001FC63B /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		D668C380292844AB001FC63B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,10 @@
 		D668C34C29283670001FC63B /* NotaFit */ = {
 			isa = PBXGroup;
 			children = (
+				D668C3792928447E001FC63B /* Views */,
 				D668C34D29283670001FC63B /* NotaFitApp.swift */,
 				D668C34F29283670001FC63B /* ContentView.swift */,
+				D668C37729283C99001FC63B /* Extensions.swift */,
 				D668C35129283676001FC63B /* Assets.xcassets */,
 				D668C35329283676001FC63B /* Preview Content */,
 			);
@@ -125,6 +137,17 @@
 				D668C36A29283676001FC63B /* NotaFitUITestsLaunchTests.swift */,
 			);
 			path = NotaFitUITests;
+			sourceTree = "<group>";
+		};
+		D668C3792928447E001FC63B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D668C37A2928448C001FC63B /* Home.swift */,
+				D668C37C29284499001FC63B /* Calendar.swift */,
+				D668C37E292844A2001FC63B /* Statistics.swift */,
+				D668C380292844AB001FC63B /* Profile.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D668C35029283670001FC63B /* ContentView.swift in Sources */,
+				D668C37829283C99001FC63B /* Extensions.swift in Sources */,
+				D668C37B2928448C001FC63B /* Home.swift in Sources */,
+				D668C381292844AB001FC63B /* Profile.swift in Sources */,
 				D668C34E29283670001FC63B /* NotaFitApp.swift in Sources */,
+				D668C37F292844A2001FC63B /* Statistics.swift in Sources */,
+				D668C37D29284499001FC63B /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

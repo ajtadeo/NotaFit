@@ -10,8 +10,11 @@ import SwiftUI
 
 struct Calendar: View {
     var body: some View {
-        ScrollView {
-            Text("Calendar page")
+        ZStack{
+            Color.background.ignoresSafeArea()
+            VStack {
+                Text("Calendar page").font(.title)
+            }
         }
     }
 }
